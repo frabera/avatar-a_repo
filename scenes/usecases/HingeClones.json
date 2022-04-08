@@ -1,0 +1,59 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": "https://difactory.github.io/repository/models/GLB/"
+    },
+    "scene": [
+        "Hinge_1",
+        "Hinge_2",
+        "Hinge_3"
+    ],
+    "assets": [
+        {
+            "id": "Hinge_1",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "Hinge_2",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                100,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "Hinge_3",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                200,
+                0,
+                0
+            ]
+        }
+    ]
+}

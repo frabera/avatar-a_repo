@@ -1,0 +1,67 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX factory: <http://www.ontoeng.com/factory#>
+PREFIX ifcext: <http://www.ontoeng.com/IFC4_ADD1_extension#>
+PREFIX fsm: <http://www.learninglab.de/~dolog/fsm/fsm.owl#>
+PREFIX osph: <http://www.ontoeng.com/osph#>
+
+DELETE{
+}
+INSERT { 
+	GRAPH ?h { 
+		?newWorkState a owl:NamedIndividual , factory:MachineToolWorkingState .
+		?trIdleWork a owl:NamedIndividual , fsm:Transition .
+		?trWorkFinal a owl:NamedIndividual , fsm:Transition .
+		?guardTrIdleWork a owl:NamedIndividual , fsm:Guard .
+		?startOp a owl:NamedIndividual , factory:MachineToolStartOperation .
+		?doPStep a owl:NamedIndividual , ?pstepClass .
+		
+		?stM fsm:contains ?trIdleWork ,?guardTrIdleWork , ?startOp.
+		?stM fsm:contains ?trWorkFinal.
+		?workState fsm:hasStateMachineElement ?newWorkState .
+		?trIdleWork fsm:Source ?idleSt .
+		?trIdleWork fsm:Target ?newWorkState .
+		?trIdleWork fsm:TransitionGuard ?guardTrIdleWork .
+		?guardTrIdleWork fsm:GuardEvent ?startOp .
+		
+		?trWorkFinal fsm:Source ?newWorkState .
+		?trWorkFinal fsm:Target ?finalSt .
+		
+		?newWorkState osph:do ?doPStep .
+		?doPStep ifcext:isDefinedByObject ?pstep .
+	}
+}
+WHERE {
+
+	# State machine of elem
+	?itsClass rdfs:subClassOf* factory:MachineTool .
+	GRAPH ?h { ?elem rdf:type ?itsClass . }
+	?elem osph:hasStateMachine ?stM .	
+	
+	?stM fsm:contains ?workState , ?idleComp, ?trWorkIdle .
+	?idleComp a fsm:Composite .
+	?workState a fsm:Composite . 			
+	?trWorkIdle a fsm:Transition .
+	?trWorkIdle fsm:Source ?workState .
+	?trWorkIdle fsm:Target ?idleComp .	
+	OPTIONAL{
+		?workState fsm:hasStateMachineElement ?finalSt .
+		?finalSt a fsm:Final .
+	}
+
+	?idleComp fsm:hasStateMachineElement ?idleSt .
+	?idleSt a factory:MachineToolIdleState .
+
+	?pstep a ?pstepClass .
+	FILTER ( ?pstepClass != owl:NamedIndividual ) .
+
+	BIND(IF(bound(?stM), URI(CONCAT(STR(?elem),"_",STRAFTER(STR(?pstep),"#"))),?null) AS ?newWorkState ) .  
+	BIND(IF(bound(?stM), URI(CONCAT(STR(?elem),"_do_",STRAFTER(STR(?pstep),"#"))),?null) AS ?doPStep ) . 
+	BIND(IF(bound(?stM), URI(CONCAT(STR(?elem),"_start_",STRAFTER(STR(?pstep),"#"))),?null) AS ?startOp ) . 
+	BIND(IF(bound(?stM), URI(CONCAT(STR(?elem),"_trIdleWork_",STRAFTER(STR(?pstep),"#"))),?null) AS ?trIdleWork ) . 
+	BIND(IF(bound(?stM), URI(CONCAT(STR(?elem),"_guardIdleWork_",STRAFTER(STR(?pstep),"#"))),?null) AS ?guardTrIdleWork ) . 
+	BIND(IF(bound(?finalSt), URI(CONCAT(STR(?elem),"_trFinalWork_",STRAFTER(STR(?pstep),"#"))),?null) AS ?trWorkFinal ) . 
+	
+
+}

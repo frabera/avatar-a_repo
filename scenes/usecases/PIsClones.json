@@ -1,0 +1,113 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": "https://difactory.github.io/repository/models/GLB/"
+    },
+    "scene": [
+        "PIs_1",
+        "PIs_1.PI_Machine_Static",
+        "PIs_2",
+        "PIs_2.PI_Machine_Static",
+        "PIs_3",
+        "PIs_3.PI_Machine_Static"
+    ],
+    "assets": [
+        {
+            "id": "PIs_1",
+            "type": "http://www.ontoeng.com/factory#MachineTool",
+            "representations": [
+                {
+                    "file": "Pin_Insertion_Station.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "PIs_1.PI_Machine_Static",
+            "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElementAssembly",
+            "representations": [
+                {
+                    "file": "Pin_Insertion_Station.glb#PI_Machine_Static",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -400,
+                0,
+                0
+            ],
+            "placementRelTo": "PIs_1",
+            "parentObject": "PIs_1"
+        },
+        {
+            "id": "PIs_2",
+            "type": "http://www.ontoeng.com/factory#MachineTool",
+            "representations": [
+                {
+                    "file": "Pin_Insertion_Station.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                -1000
+            ]
+        },
+        {
+            "id": "PIs_2.PI_Machine_Static",
+            "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElementAssembly",
+            "representations": [
+                {
+                    "file": "Pin_Insertion_Station.glb#PI_Machine_Static",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -500,
+                0,
+                0
+            ],
+            "placementRelTo": "PIs_2",
+            "parentObject": "PIs_2"
+        },
+        {
+            "id": "PIs_3",
+            "type": "http://www.ontoeng.com/factory#MachineTool",
+            "representations": [
+                {
+                    "file": "Pin_Insertion_Station.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                -2000
+            ]
+        },
+        {
+            "id": "PIs_3.PI_Machine_Static",
+            "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElementAssembly",
+            "representations": [
+                {
+                    "file": "Pin_Insertion_Station.glb#PI_Machine_Static",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -600,
+                0,
+                0
+            ],
+            "placementRelTo": "PIs_3",
+            "parentObject": "PIs_3"
+        }
+    ]
+}

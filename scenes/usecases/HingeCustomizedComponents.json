@@ -1,0 +1,225 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": "https://difactory.github.io/repository/models/GLB/"
+    },
+    "scene": [
+        "Hinge",
+        "Hinge.Box",
+        "Hinge.Clip",
+        "Hinge.Connector1",
+        "Hinge.Connector2",
+        "Hinge.Hook",
+        "Hinge.Pin1-1",
+        "Hinge.Pin1-2",
+        "Hinge.Pin1-3",
+        "Hinge.Spring",
+        "Hinge.Wing",
+        "Hinge.WingScrew"
+    ],
+    "assets": [
+        {
+            "id": "Hinge",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "Hinge.Box",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Box",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                -50
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Clip",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Clip",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                40,
+                40
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Connector1",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Connector1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                -30,
+                -60
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Connector2",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Connector2",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                50,
+                -30
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Hook",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Hook",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -20,
+                20,
+                -40
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Pin1-1",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Pin1-1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -50,
+                10,
+                10
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Pin1-2",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Pin1-2",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                30,
+                0,
+                -40
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Pin1-3",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Pin1-3",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -40,
+                10,
+                -30
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Spring",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Spring",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                10,
+                -40
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.Wing",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#Wing",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        },
+        {
+            "id": "Hinge.WingScrew",
+            "type": "http://www.ontoeng.com/factory#Artifact",
+            "representations": [
+                {
+                    "file": "Hinge.glb#WingScrew",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                -10,
+                -10
+            ],
+            "placementRelTo": "Hinge",
+            "parentObject": "Hinge"
+        }
+    ]
+}

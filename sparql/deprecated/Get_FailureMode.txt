@@ -1,0 +1,21 @@
+PREFIX express: <https://w3id.org/express#> 
+PREFIX ifc: <http://ifcowl.openbimstandards.org/IFC4_ADD1#> 
+PREFIX osph: <http://www.ontoeng.com/osph#>
+PREFIX fsm: <http://www.learninglab.de/~dolog/fsm/fsm.owl#>
+PREFIX ifcext: <http://www.ontoeng.com/IFC4_ADD1_extension#>
+
+select distinct ?ttftime ?ttrtime
+WHERE { 
+	# The selected element is a user-defined parameter
+	BIND(URI("#failstate#") AS ?failstate) . 	
+	?intr fsm:Target ?failstate .
+	optional{
+		?intr fsm:TransitionGuard/fsm:GuardEvent ?ttfguardev .
+		?ttfguardev ifcext:hasTimeToHappen ?ttftime.
+	}
+	optional{
+		?failstate osph:do/ifc:taskTime_IfcTask ?ttr .
+		optional{ ?ttr ifcext:hasStochasticDuration ?ttrtime. }
+		optional{ ?ttr ifc:scheduleDuration_IfcTaskTime ?ttrtime . }	
+	}
+}

@@ -1,0 +1,17 @@
+PREFIX ifcext: <http://www.ontoeng.com/IFC4_ADD1_extension#>
+DELETE{
+	GRAPH ?g {
+		?subject ifcext:isDecomposedByObject ?decobj .
+		?decobj ifcext:decomposesObject ?subject .
+	}
+}
+WHERE {
+
+
+	?subject ifcext:isDecomposedByObject|^ifcext:decomposesObject ?decobj .
+
+	GRAPH ?g {
+		OPTIONAL{?subject ifcext:isDecomposedByObject ?decobj .}
+		OPTIONAL{?decobj ifcext:decomposesObject ?subject .}
+	}	
+}

@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX factory: <http://www.ontoeng.com/factory#>
+PREFIX osph: <http://www.ontoeng.com/osph#>
+PREFIX cs: <http://www.ontoeng.com/controlSystem#>
+PREFIX fsm: <http://www.learninglab.de/~dolog/fsm/fsm.owl#>
+PREFIX ifcext: <http://www.ontoeng.com/IFC4_ADD1_extension#>
+
+DELETE{
+	GRAPH ?h {?res ?y1 ?z1 . }
+	GRAPH ?j {?x2 ?y2 ?res .}	
+}
+WHERE {
+
+	?pstep (ifcext:hasAssignedObject|^ifcext:hasAssignmentTo)/(ifcext:typesObject|^ifcext:isDefinedByType)* ?res .
+	?res (ifcext:hasAssignedObject|^ifcext:hasAssignmentTo)/(ifcext:typesObject|^ifcext:isDefinedByType)* ?elem .
+
+	{ GRAPH ?h {?res ?y1 ?z1 . } } UNION  { GRAPH ?j {?x2 ?y2 ?res .} }	
+
+} 

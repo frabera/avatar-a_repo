@@ -1,0 +1,53 @@
+{
+    "cameras": [
+        {
+            "id": "camera.1",
+            "type": "FlyCamera",
+            "position": [
+                180,
+                174,
+                257
+            ],
+            "rotation": [
+                0.4152305824636056,
+                -2.7533354406459676,
+                0
+            ],
+            "speed": 16
+        },
+        {
+            "id": "camera.2",
+            "type": "UniversalCamera",
+            "position": [
+                180,
+                174,
+                257
+            ],
+            "rotation": [
+                0.4152305824636056,
+                -2.7533354406459676,
+                0
+            ],
+            "speed": 16
+        }
+    ],
+    "lights":[
+        {
+            "id": "light.1",
+            "type": "HemisphericLight",
+            "direction": [ 1, 1, 1 ],
+            "intensity": 1
+        },
+        {
+            "id": "light.2",
+            "type": "PointLight",
+            "position": [ 0, 10000, 0 ],
+            "intensity": 4
+        }
+    ],
+    "shadows": {
+        "darkness": 0.3,
+        "bias": 0.001,
+        "environmentIntensity": 0.3
+    }
+}

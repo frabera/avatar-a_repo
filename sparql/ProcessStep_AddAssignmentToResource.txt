@@ -1,0 +1,67 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX factory: <http://www.ontoeng.com/factory#>
+PREFIX ifcext: <http://www.ontoeng.com/IFC4_ADD1_extension#>
+PREFIX fsm: <http://www.learninglab.de/~dolog/fsm/fsm.owl#>
+PREFIX osph: <http://www.ontoeng.com/osph#>
+
+DELETE{
+}
+INSERT { 
+	GRAPH ?graph { 
+		?pstep ifcext:hasAssignedObject ?resNew .
+		?resNew a owl:NamedIndividual , factory:ProductionResource .
+		?resNew ifcext:hasAssignedObject ?elem .
+	}
+	GRAPH ?h { 
+		?newWorkState a owl:NamedIndividual , factory:MachineToolWorkingState .
+		?trIdleWork a owl:NamedIndividual , fsm:Transition .
+		?trWorkFinal a owl:NamedIndividual , fsm:Transition .
+		?guardTrIdleWork a owl:NamedIndividual , fsm:Guard .
+		?startOp a owl:NamedIndividual , factory:MachineToolStartOperation .
+		?doPStep a owl:NamedIndividual , ?pstepClass .
+		
+		?stM fsm:contains ?trIdleWork ,?guardTrIdleWork , ?startOp.
+		?stM fsm:contains ?trWorkFinal.
+		?workState fsm:hasStateMachineElement ?newWorkState .
+		?trIdleWork fsm:Source ?idleSt .
+		?trIdleWork fsm:Target ?newWorkState .
+		?trIdleWork fsm:TransitionGuard ?guardTrIdleWork .
+		?guardTrIdleWork fsm:GuardEvent ?startOp .
+		
+		?trWorkFinal fsm:Source ?newWorkState .
+		?trWorkFinal fsm:Target ?finalSt .
+		
+		?newWorkState osph:do ?doPStep .
+		?doPStep ifcext:isDefinedByObject ?pstep .
+	}
+}
+WHERE {
+
+	# State machine of elem
+	OPTIONAL{
+		?itsClass rdfs:subClassOf* factory:MachineTool .
+		GRAPH ?h { ?elem rdf:type ?itsClass . }
+		?elem osph:hasStateMachine ?stM .	
+		
+		?stM fsm:contains ?workState , ?idleComp, ?trWorkIdle .
+		?idleComp a fsm:Composite .
+		?workState a fsm:Composite . 			
+		?trWorkIdle a fsm:Transition .
+		?trWorkIdle fsm:Source ?workState .
+		?trWorkIdle fsm:Target ?idleComp .	
+		OPTIONAL{
+			?workState fsm:hasStateMachineElement ?finalSt .
+			?finalSt a fsm:Final .
+		}
+
+		?idleComp fsm:hasStateMachineElement ?idleSt .
+		?idleSt a factory:MachineToolIdleState .
+	}
+	?pstep a ?pstepClass .
+	FILTER ( ?pstepClass != owl:NamedIndividual ) .
+
+	BIND(URI(CONCAT(STR(?pstep),"_res")) AS ?resNew ) .  	
+
+}

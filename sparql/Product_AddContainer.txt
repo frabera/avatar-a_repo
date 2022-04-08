@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ifcext: <http://www.ontoeng.com/IFC4_ADD1_extension#>
+PREFIX ifc: <http://ifcowl.openbimstandards.org/IFC4_ADD1#> 
+
+INSERT  { 
+	GRAPH ?graph { 
+		?prod ifcext:isContainedInStructure ?container .
+	}
+}
+WHERE{
+
+	?prodClass rdfs:subClassOf* ifc:IfcProduct .
+	?prod rdf:type ?prodClass .
+	FILTER ( ?prodClass != owl:NamedIndividual ) .
+	?contClass rdfs:subClassOf* ifc:IfcSpatialElement .
+	?container rdf:type ?contClass .
+	FILTER ( ?contClass != owl:NamedIndividual ) .
+}
