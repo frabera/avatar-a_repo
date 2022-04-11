@@ -54,9 +54,6 @@
           "trigger": {
             "type": "timestamp",
             "data": "4000"
-          },
-          "event": {
-            "type": "hide"
           }
         }
       ]
