@@ -23,7 +23,7 @@
       "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElement",
       "representations": [
         {
-          "file": "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Avocado/glTF-Binary/Avocado.glb",
+          "file": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/WaterBottle/glTF-Binary/WaterBottle.glb",
           "unit": 1
         }
       ],
