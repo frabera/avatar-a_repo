@@ -49,12 +49,6 @@
             "type": "state",
             "descr": "falling_down"
           }
-        },
-        {
-          "trigger": {
-            "type": "timestamp",
-            "data": "4000"
-          }
         }
       ]
     }
