@@ -16,7 +16,7 @@
             "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElement",
             "representations": [
                 {
-                    "file": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/WaterBottle/glTF-Binary/WaterBottle.glb",
+                    "file": "https://github.com/frabera/avatar-a_repo/raw/master/models/human_trial/spheres.glb",
                     "unit": 1
                 }
             ]
