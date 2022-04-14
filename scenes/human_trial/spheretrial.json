@@ -11,7 +11,7 @@
         {
             "id": "spheres.1.sphere1",
             "descr": "sphere1",
-            "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElement",
+            "type": "",
             "representations": [
                 {
                     "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/spheres.glb",
@@ -22,7 +22,7 @@
         {
             "id": "spheres.1.sphere2",
             "descr": "sphere2",
-            "type": "http://ifcowl.openbimstandards.org/IFC4_ADD1#IfcElement",
+            "type": "",
             "representations": [
                 {
                     "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/spheres.glb",
