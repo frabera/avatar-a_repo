@@ -24,22 +24,4 @@
                 50
             ]
         },
-        {
-            "id": "spheres.2",
-            "descr": "spheres.2",
-            "type": "",
-            "representations": [
-                {
-                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/spheres.glb",
-                    "unit": 1
-                }
-            ],
-            "position": [
-                50,
-                0,
-                0
-            ]
-        },
-    ],
- 
 }
