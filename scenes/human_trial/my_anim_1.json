@@ -46,7 +46,7 @@
                     },
                     "event": {
                         "type": "animation",
-                        "data": "animations/example_1/bottle_fall.txt"
+                        "data": "https://github.com/frabera/avatar-a_repo/blob/master/animations/example_1/bottle_fall.txt"
                     }
                 } ,
                 {
