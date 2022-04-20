@@ -15,10 +15,8 @@
                         "data": "10000"
                     },
                     "event": {
-                        "type": "show",
-                        "position": "[0.0,0.0,0.0]",
-                        "scale": "[1.0,1.0,1.0]",
-                        "rotation": "[0.0,0.0,0.0]"
+                        "type": "show"
+                        "placementRelTo"= "spheres.1.sphere2"
                     }
                 }
             ]   
