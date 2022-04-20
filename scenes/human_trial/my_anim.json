@@ -7,7 +7,7 @@
     "nodes": [
         {
             "name": "spheres.1.sphere1",
-            "id": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/spheres.glb",
+            "id": "spheres.1.sphere1",
             "actions": [
                 {
                     "trigger": {
@@ -17,7 +17,6 @@
                     "event": {
                         "type": "show"
                         "position": [0.0,0.0,0.0],
-                        "scale": [1.0,1.0,1.0],
                         "rotation": [0.0,0.0,0.0]
                     }
                 }
