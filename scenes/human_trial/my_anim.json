@@ -12,7 +12,7 @@
                 {
                     "trigger": {
                         "type": "timestamp",
-                        "data": "10000"
+                        "data": "5000"
                     },
                     "event": {
                         "type": "show",
