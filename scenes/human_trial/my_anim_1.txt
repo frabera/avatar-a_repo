@@ -1,0 +1,25 @@
+{
+    "context": {
+        "assetTrail": true,
+        "UnitOfMeasureScale": 0.01,
+        "RepoAnim": ""
+    },
+    "nodes": [
+        {
+            "id": "spheres.1.sphere1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "15100"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "https://github.com/frabera/avatar-a_repo/blob/master/animations/example_1/bottle_fall.txt",
+                        "placementRelTo": "spheres.1.sphere2"
+                    }
+                }
+            ]   
+        }
+      ]
+    }      
