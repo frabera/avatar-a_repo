@@ -16,7 +16,9 @@
                     },
                     "event": {
                         "type": "show"
-                        "placementRelTo"= "spheres.1.sphere2"
+                        "position": [0.0,0.0,0.0],
+                        "scale": [1.0,1.0,1.0],
+                        "rotation": [0.0,0.0,0.0]
                     }
                 }
             ]   
