@@ -1,6 +1,6 @@
 {
     "context": {
-        "assetTrail": false,
+        "assetTrail": true,
         "UnitOfMeasureScale": 0.01,
         "RepoAnim": ""
     },
@@ -12,51 +12,16 @@
                 {
                     "trigger": {
                         "type": "timestamp",
-                        "data": "100"
+                        "data": "10000"
                     },
                     "event": {
                         "type": "show",
-                        "placementRelTo": "http://www.ontoeng.com/DFAssemblyLine#PP01.PPs_LC_Pos2"
-                    }
-                },
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "15100"
-                    },
-                    "event": {
-                        "type": "animation",
-                        "data": "animations/DFAssemblyLine/tr[-21][0][-0]-[0][0][-0]rot[0][-0][0]-[0][-0][0]t(0.084)_rel3.txt",
-                        "placementRelTo": "http://www.ontoeng.com/DFAssemblyLine#PP01.PPs_LC_Pos1"
-                    }
-                },
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "21100"
-                    },
-                    "event": {
-                        "type": "show",
-                        "placementRelTo": "http://www.ontoeng.com/DFAssemblyLine#PP01.PPs_Workholding",
-                        "position": [
-                            -0.01499999999999773,
-                            -0.2800000000000011,
-                            -0.2200000000000046
-                        ]
-                    }
-                },
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "27400"
-                    },
-                    "event": {
-                        "type": "animation",
-                        "data": "animations/DFAssemblyLine/tr[0][3][8]-[0][3][8]rot[0][-0][0]-[0][-0][0]t(0.2)_rel3.txt",
-                        "placementRelTo": "http://www.ontoeng.com/DFAssemblyLine#Hinge_02"
+                        "position": "[0.0,0.0,0.0]",
+                        "scale": "[0.0,0.0,0.0]",
+                        "rotation": "[1.0,1.0,1.0]"
                     }
                 }
-            ]
-        },
+            ]   
+        }
       ]
-      }
+    }      
