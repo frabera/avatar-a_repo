@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "spheres.1"
+    ],
+    "assets": [
+        {
+            "id": "spheres.1",
+            "descr": "sphere",
+            "type": "sphere",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/spheres.glb",
+                    "unit": 1
+                }
+            ]
+        }
+      ]
+}
