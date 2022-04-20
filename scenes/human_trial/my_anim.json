@@ -2,12 +2,12 @@
     "context": {
         "assetTrail": false,
         "UnitOfMeasureScale": 0.01,
-        "RepoAnim": "https://difactory.github.io/repository/"
+        "RepoAnim": ""
     },
     "nodes": [
         {
-            "name": "http://www.ontoeng.com/DFAssemblyLine#Hinge_02.Clip",
-            "id": "http://www.ontoeng.com/DFAssemblyLine#Hinge_02.Clip",
+            "name": "spheres.1.sphere1",
+            "id": "spheres1.sphere1",
             "actions": [
                 {
                     "trigger": {
