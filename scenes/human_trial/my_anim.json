@@ -16,7 +16,7 @@
                     },
                     "event": {
                         "type": "show"
-                        "position": [0.0,0.0,0.0],
+                        "position": [0.0,77,0.0],
                         "rotation": [0.0,0.0,0.0]
                     }
                 }
