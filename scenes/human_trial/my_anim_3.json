@@ -1,0 +1,120 @@
+{
+    "context": {
+      "assetTrail": false,
+      "UnitOfMeasureScale": 0.01,
+      "RepoAnim": ""
+    },
+    "nodes": [
+      {
+        "name": "spheres.1.sphere1",
+        "id": "spheres.1.sphere1",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "1000"
+            },
+            "event": {
+              "type": "hide"
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "2000"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 60, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "3000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_1/bottle_fall.txt"
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "4000"
+            },
+            "event": {
+              "type": "hide"
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animationAdditive",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_2.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "spheres.1.sphere2",
+        "id": "spheres.1.sphere2",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "6000"
+            },
+            "event": {
+              "type": "hide"
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "7000"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0,0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "8000"
+            },
+            "event": {
+              "type": "animationAdditive",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_2.txt"
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "9000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_1.txt"
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "10000"
+            },
+            "event": {
+              "type": "animationAdditive",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_2/trolley_move.txt"
+            }
+          }
+        ]
+      }
+    ]
+  }
