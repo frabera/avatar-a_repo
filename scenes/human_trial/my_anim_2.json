@@ -2,7 +2,7 @@
     "context": {
         "assetTrail": true,
         "UnitOfMeasureScale": 0.01,
-        "RepoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations"
+        "RepoAnim": ""
     },
     "nodes": [
         {
@@ -46,7 +46,7 @@
                     },
                     "event": {
                         "type": "animation",
-                        "data": "/example_1/bottle_fall.txt"
+                        "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_1/bottle_fall.txt"
                     }
                 } ,
                 {
@@ -88,7 +88,7 @@
                             },
                             "event": {
                                 "type": "animation",
-                                "data": "/human_trial/anim_1.txt"
+                                "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_1.txt"
                             }
                         }
                     ]
