@@ -15,9 +15,7 @@
               "data": "1000"
             },
             "event": {
-              "type": "show",
-              "position": [0.0, 77, 0.0],
-              "rotation": [0.0, 0.0, 0.0]
+              "type": "hide",
             }
           },
           {
