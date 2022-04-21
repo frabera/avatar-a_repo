@@ -55,7 +55,7 @@
             },
             "event": {
               "type": "animationAdditive",
-              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_2.txt"
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_3/camera_move.txt"
             }
           }
         ]
@@ -91,7 +91,7 @@
             },
             "event": {
               "type": "animationAdditive",
-              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_2.txt"
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_3/camera_move.txt"
             }
           },
           {
