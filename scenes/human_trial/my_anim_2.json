@@ -12,7 +12,7 @@
           {
             "trigger": {
               "type": "timestamp",
-              "data": "10000"
+              "data": "1000"
             },
             "event": {
               "type": "show",
@@ -23,7 +23,7 @@
           {
             "trigger": {
               "type": "timestamp",
-              "data": "1000"
+              "data": "2000"
             },
             "event": {
               "type": "show",
@@ -34,7 +34,7 @@
           {
             "trigger": {
               "type": "timestamp",
-              "data": "2000"
+              "data": "3000"
             },
             "event": {
               "type": "animation",
@@ -50,7 +50,7 @@
           {
             "trigger": {
               "type": "timestamp",
-              "data": "3000"
+              "data": "4000"
             },
             "event": {
               "type": "hide",
@@ -59,7 +59,7 @@
           {
             "trigger": {
               "type": "timestamp",
-              "data": "4000"
+              "data": "5000"
             },
             "event": {
               "type": "show",
@@ -70,7 +70,7 @@
           {
             "trigger": {
               "type": "timestamp",
-              "data": "4500"
+              "data": "6000"
             },
             "event": {
               "type": "animation",
