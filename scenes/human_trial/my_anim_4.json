@@ -1,6 +1,6 @@
 {
     "context": {
-      "assetTrail": true,
+      "assetTrail": false,
       "UnitOfMeasureScale": 0.01,
       "RepoAnim": ""
     },
