@@ -1,0 +1,24 @@
+{
+    "context": {
+      "assetTrail": true,
+      "UnitOfMeasureScale": 0.01,
+      "RepoAnim": ""
+    },
+    "nodes": [
+        {
+          "name": "spheres.1.sphere1",
+          "id": "spheres.1.sphere1",
+          "actions": [
+            {
+              "trigger": {
+                "type": "timestamp",
+                "data": "10000"
+              },
+              "event": {
+                "type": "hide"
+              }
+            }
+        ]
+    }
+    ]
+}
