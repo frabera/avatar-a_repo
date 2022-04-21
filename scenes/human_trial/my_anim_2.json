@@ -1,99 +1,83 @@
 {
     "context": {
-        "assetTrail": true,
-        "UnitOfMeasureScale": 0.01,
-        "RepoAnim": ""
+      "assetTrail": false,
+      "UnitOfMeasureScale": 0.01,
+      "RepoAnim": ""
     },
     "nodes": [
-        {
-            "name": "spheres.1.sphere1",
-            "id": "spheres.1.sphere1",
-            "actions": [
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "10000"
-                    },
-                    "event": {
-                        "type": "show",
-                        "position": [0.0,77,0.0],
-                        "rotation": [0.0,0.0,0.0]
-                    }
-                },
-        {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "1000"
-                    },
-                    "event": {
-                        "type": "show",
-                        "position": [
-                            0.0,
-                            60,
-                            0.0
-                        ],
-                        "rotation": [
-                            0,
-                            0,
-                            0
-                        ]
-                    }
-                },
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "2000"
-                    },
-                    "event": {
-                        "type": "animation",
-                        "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_1/bottle_fall.txt"
-                    }
-                } ,
-                {
-                    "name": "spheres.1.sphere2",
-                    "id": "spheres.1.sphere2",
-                    "actions": [
-                        {
-                            "trigger": {
-                                "type": "timestamp",
-                                "data": "3000"
-                            },
-                            "event": {
-                                "type": "hide",
-                            }
-                        },
-                {
-                            "trigger": {
-                                "type": "timestamp",
-                                "data": "4000"
-                            },
-                            "event": {
-                                "type": "show",
-                                "position": [
-                                    100,
-                                    -60,
-                                    0.0
-                                ],
-                                "rotation": [
-                                    0,
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "trigger": {
-                                "type": "timestamp",
-                                "data": "4500"
-                            },
-                            "event": {
-                                "type": "animation",
-                                "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/anim_1.txt"
-                            }
-                        }
-                    ]
-                }
-            ]        
-        }
-    ]    
- }
+      {
+        "name": "spheres.1.sphere1",
+        "id": "spheres.1.sphere1",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "10000"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 77, 0.0],
+              "rotation": [0.0, 0.0, 0.0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "1000"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 60, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "2000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_1/bottle_fall.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "spheres.1.sphere2",
+        "id": "spheres.1.sphere2",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "3000"
+            },
+            "event": {
+              "type": "hide",
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "4000"
+            },
+            "event": {
+              "type": "show",
+              "position": [100, -60, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "4500"
+            },
+            "event": {
+              "type": "animation",
+              "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_1/bottle_fall.txt"
+            }
+          }
+        ]
+      }
+    ]
+  }
