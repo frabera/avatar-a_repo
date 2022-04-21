@@ -15,7 +15,7 @@
               "data": "1000"
             },
             "event": {
-              "type": "hide",
+              "type": "hide"
             }
           },
           {
@@ -51,7 +51,7 @@
               "data": "4000"
             },
             "event": {
-              "type": "hide",
+              "type": "hide"
             }
           },
           {
