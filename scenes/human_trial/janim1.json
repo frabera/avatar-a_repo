@@ -6,8 +6,8 @@
     },
     "nodes": [
         {
-            "name": "A.1",
-            "id": "A.1",
+            "name": "1",
+            "id": "1",
             "actions": [
                 {
                     "trigger": {
