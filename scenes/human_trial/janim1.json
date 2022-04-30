@@ -1,8 +1,8 @@
 {
     "context": {
-        "assetTrail": true,
-        "UnitOfMeasureScale": 0.001,
-        "RepoAnim": ""
+      "assetTrail": false,
+      "UnitOfMeasureScale": 0.001,
+      "RepoAnim": ""
     },
     "nodes": [
         {
@@ -11,12 +11,12 @@
             "actions": [
                 {
                     "trigger": {
-                        "type": "timestamp",
-                        "data": "1000"
+                      "type": "timestamp",
+                      "data": "5000"
                     },
                     "event": {
-                        "type": "animation",
-                        "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/0.txt"
+                      "type": "animationAdditive",
+                      "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/0.txt"
                     }
                 }
             ]
