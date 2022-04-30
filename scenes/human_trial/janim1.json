@@ -1,0 +1,25 @@
+{
+    "context": {
+        "assetTrail": true,
+        "UnitOfMeasureScale": 0.001,
+        "RepoAnim": ""
+    },
+    "nodes": [
+        {
+            "name": "A.1",
+            "id": "A.1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "1000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/0.txt"
+                    }
+                }
+            ]
+        }
+    ]
+}
