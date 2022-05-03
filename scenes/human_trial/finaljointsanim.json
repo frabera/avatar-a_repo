@@ -1,0 +1,521 @@
+{
+  "context": {
+    "assetTrail": false,
+    "UnitOfMeasureScale": 0.001,
+    "RepoAnim": ""
+  },
+  "nodes": [
+    {
+      "name": "A.1",
+      "id": "A.1",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "1000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/0.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.2",
+      "id": "A.2",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "2000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/1.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.3",
+      "id": "A.3",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "3000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/2.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.4",
+      "id": "A.4",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "4000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/3.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.5",
+      "id": "A.5",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/4.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.6",
+      "id": "A.6",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "6000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/5.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.7",
+      "id": "A.7",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "7000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/6.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.8",
+      "id": "A.8",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "8000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/7.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.9",
+      "id": "A.9",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "9000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/8.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.10",
+      "id": "A.10",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "10000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/9.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.11",
+      "id": "A.11",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "11000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/10.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.12",
+      "id": "A.12",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "12000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/11.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.13",
+      "id": "A.13",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "13000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/12.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.14",
+      "id": "A.14",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "14000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/13.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.15",
+      "id": "A.15",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "15000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/14.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.16",
+      "id": "A.16",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "16000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/15.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.17",
+      "id": "A.17",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "17000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/16.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.18",
+      "id": "A.18",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "18000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/17.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.19",
+      "id": "A.19",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "19000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/18.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.20",
+      "id": "A.20",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "20000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/19.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.21",
+      "id": "A.21",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "21000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/20.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.22",
+      "id": "A.22",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "22000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/21.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.23",
+      "id": "A.23",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "23000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/22.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.24",
+      "id": "A.24",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "24000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/23.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.25",
+      "id": "A.25",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "25000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/24.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.26",
+      "id": "A.26",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "26000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/25.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.27",
+      "id": "A.27",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "27000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/26.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.28",
+      "id": "A.28",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "28000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/27.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.29",
+      "id": "A.29",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "29000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/28.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.30",
+      "id": "A.30",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "30000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/29.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.31",
+      "id": "A.31",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/30.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.32",
+      "id": "A.32",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "32000"
+          },
+          "event": {
+            "type": "animationAdditive",
+            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/31.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
