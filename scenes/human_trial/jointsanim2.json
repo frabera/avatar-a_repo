@@ -1,0 +1,521 @@
+{
+    "context": {
+      "assetTrail": false,
+      "UnitOfMeasureScale": 0.001,
+      "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
+    },
+    "nodes": [
+      {
+        "name": "A.1",
+        "id": "A.1",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "0.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.2",
+        "id": "A.2",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "1.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.3",
+        "id": "A.3",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "2.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.4",
+        "id": "A.4",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "3.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.5",
+        "id": "A.5",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "4.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.6",
+        "id": "A.6",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "5.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.7",
+        "id": "A.7",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "6.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.8",
+        "id": "A.8",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "7.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.9",
+        "id": "A.9",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "8.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.10",
+        "id": "A.10",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "9.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.11",
+        "id": "A.11",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "10.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.12",
+        "id": "A.12",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "11.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.13",
+        "id": "A.13",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "12.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.14",
+        "id": "A.14",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "13.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.15",
+        "id": "A.15",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "14.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.16",
+        "id": "A.16",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "15.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.17",
+        "id": "A.17",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "16.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.18",
+        "id": "A.18",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "17.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.19",
+        "id": "A.19",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "18.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.20",
+        "id": "A.20",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "19.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.21",
+        "id": "A.21",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "20.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.22",
+        "id": "A.22",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "21.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.23",
+        "id": "A.23",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "22.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.24",
+        "id": "A.24",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "23.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.25",
+        "id": "A.25",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "24.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.26",
+        "id": "A.26",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "25.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.27",
+        "id": "A.27",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "26.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.28",
+        "id": "A.28",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "27.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.29",
+        "id": "A.29",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "28.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.30",
+        "id": "A.30",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "29.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.31",
+        "id": "A.31",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "30.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A.32",
+        "id": "A.32",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "animation",
+              "data": "31.txt"
+            }
+          }
+        ]
+      }
+    ]
+  }
