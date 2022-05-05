@@ -1,0 +1,44 @@
+{
+    "context": {
+        "assetTrail": false,
+        "UnitOfMeasureScale": 0.001,
+        "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
+    },
+    "nodes": [
+        {
+            "name": "A.A.1",
+            "id": "A.A.1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "0.txt"
+                    }
+                }
+            ]
+        }
+    ]
+}
