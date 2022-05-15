@@ -1,0 +1,899 @@
+{
+  "context": {
+    "assetTrail": false,
+    "UnitOfMeasureScale": 0.001,
+    "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
+  },
+  "nodes": [
+    {
+      "name": "B.0",
+      "id": "B.0",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "0.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.1",
+      "id": "B.1",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "1.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.2",
+      "id": "B.2",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "2.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.3",
+      "id": "B.3",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "3.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.4",
+      "id": "B.4",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "4.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.5",
+      "id": "B.5",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "5.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.6",
+      "id": "B.6",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "6.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.7",
+      "id": "B.7",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "7.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.8",
+      "id": "B.8",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "8.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.9",
+      "id": "B.9",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "9.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.10",
+      "id": "B.10",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "10.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.11",
+      "id": "B.11",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "11.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.12",
+      "id": "B.12",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "12.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.13",
+      "id": "B.13",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "13.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.14",
+      "id": "B.14",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "14.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.15",
+      "id": "B.15",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "15.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.16",
+      "id": "B.16",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "16.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.17",
+      "id": "B.17",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "17.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.18",
+      "id": "B.18",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "18.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.19",
+      "id": "B.19",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "19.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.20",
+      "id": "B.20",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "20.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.21",
+      "id": "B.21",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "21.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.22",
+      "id": "B.22",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "22.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.23",
+      "id": "B.23",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "23.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.24",
+      "id": "B.24",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "24.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.25",
+      "id": "B.25",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "25.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.26",
+      "id": "B.26",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "26.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.27",
+      "id": "B.27",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "27.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.28",
+      "id": "B.28",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "28.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.29",
+      "id": "B.29",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "29.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.30",
+      "id": "B.30",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "30.txt"
+          }
+        }
+      ]
+    },
+    {
+      "name": "B.31",
+      "id": "B.31",
+      "actions": [
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "31.txt"
+          }
+        }
+      ]
+    }
+  ],
+    "bookmarks": [
+    {
+      "name": "bookmark_0",
+      "time": "0"
+    },
+    {
+      "name": "bookmark_0",
+      "time": "60000"
+    },
+    {
+      "name": "bookmark_0",
+      "time": "120000"
+    },
+    {
+      "name": "bookmark_0",
+      "time": "180000"
+    },
+    {
+      "name": "bookmark_0",
+      "time": "240000"
+    },
+    {
+      "name": "bookmark_0",
+      "time": "300000"
+    }
+  ]
+}
