@@ -14,7 +14,7 @@
             "type": "sphere",
             "representations": [
                 {
-                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/A.glb",
+                    "file": "https://github.com/frabera/avatar-a_repo/blob/master/models/human_trial/A.glb?raw=true",
                     "unit": 1
                 }
             ]
