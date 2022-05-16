@@ -2,7 +2,7 @@
   "context": {
     "assetTrail": false,
     "UnitOfMeasureScale": 0.001,
-    "RepoAnim": ""
+    "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
   },
   "nodes": [
     {
@@ -12,11 +12,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "1000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/0.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "0.txt"
           }
         }
       ]
@@ -28,11 +39,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "2000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/1.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "1.txt"
           }
         }
       ]
@@ -44,11 +66,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "3000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/2.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "2.txt"
           }
         }
       ]
@@ -60,11 +93,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "4000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/3.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "3.txt"
           }
         }
       ]
@@ -76,11 +120,22 @@
         {
           "trigger": {
             "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
             "data": "5000"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/4.txt"
+            "type": "animation",
+            "data": "4.txt"
           }
         }
       ]
@@ -92,11 +147,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "6000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/5.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "5.txt"
           }
         }
       ]
@@ -108,11 +174,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "7000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/6.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "6.txt"
           }
         }
       ]
@@ -124,11 +201,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "8000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/7.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "7.txt"
           }
         }
       ]
@@ -140,11 +228,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "9000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/8.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "8.txt"
           }
         }
       ]
@@ -156,11 +255,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "10000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/9.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "9.txt"
           }
         }
       ]
@@ -172,11 +282,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "11000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/10.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "10.txt"
           }
         }
       ]
@@ -188,11 +309,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "12000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/11.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "11.txt"
           }
         }
       ]
@@ -204,11 +336,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "13000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/12.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "12.txt"
           }
         }
       ]
@@ -220,11 +363,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "14000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/13.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "13.txt"
           }
         }
       ]
@@ -236,11 +390,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "15000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/14.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "14.txt"
           }
         }
       ]
@@ -252,11 +417,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "16000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/15.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "15.txt"
           }
         }
       ]
@@ -268,11 +444,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "17000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/16.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "16.txt"
           }
         }
       ]
@@ -284,11 +471,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "18000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/17.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "17.txt"
           }
         }
       ]
@@ -300,11 +498,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "19000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/18.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "18.txt"
           }
         }
       ]
@@ -316,11 +525,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "20000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/19.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "19.txt"
           }
         }
       ]
@@ -332,11 +552,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "21000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/20.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "20.txt"
           }
         }
       ]
@@ -348,11 +579,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "22000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/21.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "21.txt"
           }
         }
       ]
@@ -364,11 +606,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "23000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/22.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "22.txt"
           }
         }
       ]
@@ -380,11 +633,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "24000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/23.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "23.txt"
           }
         }
       ]
@@ -396,11 +660,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "25000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/24.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "24.txt"
           }
         }
       ]
@@ -412,11 +687,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "26000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/25.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "25.txt"
           }
         }
       ]
@@ -428,11 +714,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "27000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/26.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "26.txt"
           }
         }
       ]
@@ -444,11 +741,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "28000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/27.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "27.txt"
           }
         }
       ]
@@ -460,11 +768,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "29000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/28.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "28.txt"
           }
         }
       ]
@@ -476,11 +795,22 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "30000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/29.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "29.txt"
           }
         }
       ]
@@ -492,11 +822,22 @@
         {
           "trigger": {
             "type": "timestamp",
+            "data": "0"
+          },
+          "event": {
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
             "data": "5000"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/30.txt"
+            "type": "animation",
+            "data": "30.txt"
           }
         }
       ]
@@ -508,17 +849,28 @@
         {
           "trigger": {
             "type": "timestamp",
-            "data": "32000"
+            "data": "0"
           },
           "event": {
-            "type": "animationAdditive",
-            "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/31.txt"
+            "type": "show",
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0, 0, 0]
+          }
+        },
+        {
+          "trigger": {
+            "type": "timestamp",
+            "data": "5000"
+          },
+          "event": {
+            "type": "animation",
+            "data": "31.txt"
           }
         }
       ]
     }
   ],
-  "bookmarks": [
+    "bookmarks": [
     {
       "name": "bookmark_0",
       "time": "0"
@@ -544,3 +896,4 @@
       "time": "300000"
     }
   ]
+}
