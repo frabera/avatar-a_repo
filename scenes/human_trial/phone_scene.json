@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "phone"
+    ],
+    "assets": [
+        {
+            "id": "phone",
+            "descr": "phone",
+            "type": "phone",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/phone.glb",
+                    "unit": 1
+                }
+            ]
+        }
+      ]
+}
