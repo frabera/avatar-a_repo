@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "TUTTODRITTOossa"
+    ],
+    "assets": [
+        {
+            "id": "TUTTODRITTOossa",
+            "descr": "sphere",
+            "type": "sphere",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/TUTTODRITTOossa.glb",
+                    "unit": 1
+                }
+            ]
+        }
+      ]
+}
