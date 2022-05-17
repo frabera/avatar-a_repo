@@ -1,0 +1,40 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "A1"
+    ],
+    "assets": [
+        {
+            "id": "A1",
+            "descr": "sphere",
+            "type": "sphere",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/A1.glb",
+                    "unit": 1
+                }
+            ]
+        }
+      ],
+      "cameras": [
+        {
+            "id": "camera.20",
+            "type": "FlyCamera",
+            "position": [
+                133.65946097494611,
+                92.63437661778377,
+                268.7779819679474
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "speed": 1
+        }
+    ]
+}
