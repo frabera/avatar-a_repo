@@ -1,0 +1,899 @@
+{
+    "context": {
+      "assetTrail": false,
+      "UnitOfMeasureScale": 0.001,
+      "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
+    },
+    "nodes": [
+      {
+        "name": "A1.0",
+        "id": "A1.0",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "0a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.1",
+        "id": "A1.1",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "1a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.2",
+        "id": "A1.2",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "2a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.3",
+        "id": "A1.3",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "3a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.4",
+        "id": "A1.4",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "4a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.5",
+        "id": "A1.5",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "5a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.6",
+        "id": "A1.6",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "6a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.7",
+        "id": "A1.7",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "7a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.8",
+        "id": "A1.8",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "8a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.9",
+        "id": "A1.9",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "9a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.10",
+        "id": "A1.10",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "10a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.11",
+        "id": "A1.11",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "11a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.12",
+        "id": "A1.12",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "12a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.13",
+        "id": "A1.13",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "13a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.14",
+        "id": "A1.14",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "14a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.15",
+        "id": "A1.15",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "15a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.16",
+        "id": "A1.16",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "16a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.17",
+        "id": "A1.17",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "17a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.18",
+        "id": "A1.18",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "18a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.19",
+        "id": "A1.19",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "19a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.20",
+        "id": "A1.20",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "20a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.21",
+        "id": "A1.21",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "21a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.22",
+        "id": "A1.22",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "22a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.23",
+        "id": "A1.23",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "23a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.24",
+        "id": "A1.24",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "24a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.25",
+        "id": "A1.25",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "25a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.26",
+        "id": "A1.26",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "26a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.27",
+        "id": "A1.27",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "27a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.28",
+        "id": "A1.28",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "28a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.29",
+        "id": "A1.29",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "29a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.30",
+        "id": "A1.30",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "30a.txt"
+            }
+          }
+        ]
+      },
+      {
+        "name": "A1.31",
+        "id": "A1.31",
+        "actions": [
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "0"
+            },
+            "event": {
+              "type": "show",
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0, 0, 0]
+            }
+          },
+          {
+            "trigger": {
+              "type": "timestamp",
+              "data": "5000"
+            },
+            "event": {
+              "type": "animation",
+              "data": "31a.txt"
+            }
+          }
+        ]
+      }
+    ],
+      "bookmarks": [
+      {
+        "name": "bookmark_0",
+        "time": "0"
+      },
+      {
+        "name": "bookmark_1",
+        "time": "60000"
+      },
+      {
+        "name": "bookmark_2",
+        "time": "120000"
+      },
+      {
+        "name": "bookmark_3",
+        "time": "180000"
+      },
+      {
+        "name": "bookmark_4",
+        "time": "240000"
+      },
+      {
+        "name": "bookmark_5",
+        "time": "300000"
+      }
+    ]
+  }
