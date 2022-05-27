@@ -6,8 +6,8 @@
     },
     "nodes": [
         {
-            "name": "A1.0",
-            "id": "A1.0",
+            "name": "A1.2",
+            "id": "A1.2",
             "actions": [
                 {
                     "trigger": {
@@ -35,7 +35,7 @@
                     },
                     "event": {
                         "type": "animation",
-                        "data": "0a.txt"
+                        "data": "2a.txt"
                     }
                 }
             ]
