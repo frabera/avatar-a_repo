@@ -1,0 +1,105 @@
+{
+    "context": {
+        "assetTrail": false,
+        "UnitOfMeasureScale": 0.001,
+        "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
+    },
+    "nodes": [
+        {
+            "name": "A1.0",
+            "id": "A1.0",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "0a.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "A1.2",
+            "id": "A1.2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "2a.txt"
+                    }
+                }
+            ]
+        }
+    ],
+    "bookmarks": [
+        {
+            "name": "bookmark_0",
+            "time": "0"
+        },
+        {
+            "name": "bookmark_1",
+            "time": "60000"
+        },
+        {
+            "name": "bookmark_2",
+            "time": "120000"
+        },
+        {
+            "name": "bookmark_3",
+            "time": "180000"
+        },
+        {
+            "name": "bookmark_4",
+            "time": "240000"
+        },
+        {
+            "name": "bookmark_5",
+            "time": "300000"
+        }
+    ]
+}
