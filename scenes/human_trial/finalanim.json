@@ -27,7 +27,7 @@
             },
             "event": {
               "type": "animation",
-              "data": "0a.txt"
+              "data": "A.txt"
             }
           }
         ]
@@ -54,7 +54,7 @@
             },
             "event": {
               "type": "animation",
-              "data": "1a.txt"
+              "data": "B.txt"
             }
           }
         ]
@@ -81,7 +81,7 @@
             },
             "event": {
               "type": "animation",
-              "data": "2a.txt"
+              "data": "C.txt"
             }
           }
         ]
@@ -108,7 +108,7 @@
             },
             "event": {
               "type": "animation",
-              "data": "3a.txt"
+              "data": "D.txt"
             }
           }
         ]
@@ -135,7 +135,7 @@
             },
             "event": {
               "type": "animation",
-              "data": "4a.txt"
+              "data": "E.txt"
             }
           }
         ]
