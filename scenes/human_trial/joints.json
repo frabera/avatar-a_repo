@@ -10,11 +10,11 @@
     "assets": [
         {
             "id": "joints",
-            "descr": "spheres",
-            "type": "spheres",
+            "descr": "sphere",
+            "type": "sphere",
             "representations": [
                 {
-                    "file": "https://github.com/frabera/avatar-a_repo/blob/master/models/human_trial/joints.glb?raw=true",
+                    "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/joints.glb",
                     "unit": 1
                 }
             ]
