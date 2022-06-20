@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "joints+cylinder"
+    ],
+    "assets": [
+        {
+            "id": "joints+cylinder",
+            "descr": "sphere+cylinder",
+            "type": "sphere+cylinder",
+            "representations": [
+                {
+                    "file": "https://github.com/frabera/avatar-a_repo/blob/master/models/human_trial/joints+cylinder.glb?raw=true",
+                    "unit": 1
+                }
+            ]
+        }
+      ]
+}
