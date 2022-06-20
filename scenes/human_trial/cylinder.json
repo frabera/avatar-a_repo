@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "cylinder"
+    ],
+    "assets": [
+        {
+            "id": "cylinder",
+            "descr": "sphere",
+            "type": "sphere",
+            "representations": [
+                {
+                    "file": "https://github.com/frabera/avatar-a_repo/blob/master/models/human_trial/cylinder.glb?raw=true",
+                    "unit": 1
+                }
+            ]
+        }
+      ]
+}
