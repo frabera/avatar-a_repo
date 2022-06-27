@@ -1,0 +1,224 @@
+glTF   „
+  €   JSON{
+    "asset": {
+        "generator": "Khronos glTF Blender I/O v1.8.19",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "Cube",
+            "rotation": [
+                -0.48070186376571655,
+                -0.26169928908348083,
+                -0.21231913566589355,
+                0.8095429539680481
+            ]
+        }
+    ],
+    "animations": [
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 0,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 0,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 0,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "CubeAction.005",
+            "samplers": [
+                {
+                    "input": 4,
+                    "interpolation": "LINEAR",
+                    "output": 5
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 8
+                }
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cube.008",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5123,
+            "count": 36,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 6,
+            "max": [
+                1.0416666666666667
+            ],
+            "min": [
+                0.8333333333333334
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 6,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2,
+            "max": [
+                1.0416666666666667
+            ],
+            "min": [
+                0.8333333333333334
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 2,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 2,
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 288
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 576
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 768
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 840
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 864
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8,
+            "byteOffset": 936
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 944
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 976
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1000
+        }
+    ]
+}  è  BIN   €¿  €¿  €?  €¿  €¿  €?  €¿  €¿  €?  €¿  €?  €?  €¿  €?  €?  €¿  €?  €?  €¿  €¿  €¿  €¿  €¿  €¿  €¿  €¿  €¿  €¿  €?  €¿  €¿  €?  €¿  €¿  €?  €¿  €?  €¿  €?  €?  €¿  €?  €?  €¿  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €¿  €¿  €?  €¿  €¿  €?  €¿  €¿  €?  €?  €¿  €?  €?  €¿  €?  €?  €¿  €¿       €      €¿   €          €?  €¿       €          €?      €?   €  €¿       €      €¿   €          €¿  €¿       €          €¿      €?   €      €¿   €          €?  €?       €          €?      €?   €  €?       €      €¿   €          €¿  €?       €          €¿      €?   €  €?       €  À>  €?   >  €>  À>       ?  €?   ?      `?  €>  À>  @?   >   ?  À>  @?   ?  @?   ?  @?  `?   ?  À>  €>  À>  €>  À>  €>   ?  €>   ?  €>   ?  €>  À>   ?  À>   ?  À>   ?   ?   ?   ?   ?   ?   ?   	   	   
+           
+   
+            
+     UUU?  `?«ªj?UUu?  €?UU…?           €K7=2ùÈ>,k¿Àõ=ì
+ª?”fô¿¤3b>þ†@¯õ`Àëbœ>ÏnX@‡›ÀÔ‰®>ôq@
+}”­ÀUUU?UU…?ö¾sý…¾0jY¾5>O?ö¾sý…¾0jY¾5>O?  €?  €?  €?  €?  €?  €?
