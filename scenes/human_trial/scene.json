@@ -2,7 +2,7 @@
     "context": {
         "UnitOfMeasureScale": 0.001,
         "Zup": false,
-        "RepoPath": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/",
+        "RepoPath": "",
         "scene": [
             "JOINT"
         ],
@@ -13,7 +13,7 @@
                 "type": "sphere",
                 "representations": [
                     {
-                        "file": "JOINT.glb",
+                        "file": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/JOINT.glb",
                         "unit": 1
                     }
                 ]
