@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/",
+        "scene": [
+            "scene"
+        ],
+        "assets": [
+            {
+                "id": "scene",
+                "descr": "sphere",
+                "type": "sphere",
+                "representations": [
+                    {
+                        "file": "scene.glb",
+                        "unit": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
