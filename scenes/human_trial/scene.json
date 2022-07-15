@@ -1,0 +1,23 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.001,
+        "Zup": false,
+        "RepoPath": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/models/human_trial/",
+        "scene": [
+            "JOINT"
+        ],
+        "assets": [
+            {
+                "id": "JOINT",
+                "descr": "sphere",
+                "type": "sphere",
+                "representations": [
+                    {
+                        "file": "JOINT.glb",
+                        "unit": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
