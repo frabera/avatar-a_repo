@@ -1,0 +1,1139 @@
+{
+    "context": {
+        "assetTrail": false,
+        "UnitOfMeasureScale": 0.001,
+        "repoAnim": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/human_trial/"
+    },
+    "nodes": [
+        {
+            "name": "JOINT.0",
+            "id": "JOINT.0",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_0.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.1",
+            "id": "JOINT.1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_1.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.2",
+            "id": "JOINT.2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_2.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.3",
+            "id": "JOINT.3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_3.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.4",
+            "id": "JOINT.4",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_4.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.5",
+            "id": "JOINT.5",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_5.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.6",
+            "id": "JOINT.6",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_6.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.7",
+            "id": "JOINT.7",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_7.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.8",
+            "id": "JOINT.8",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_8.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.9",
+            "id": "JOINT.9",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_9.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.10",
+            "id": "JOINT.10",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_10.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.11",
+            "id": "JOINT.11",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_11.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.12",
+            "id": "JOINT.12",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_12.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.13",
+            "id": "JOINT.13",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_13.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.14",
+            "id": "JOINT.14",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_14.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.15",
+            "id": "JOINT.15",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_15.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.16",
+            "id": "JOINT.16",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_16.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.17",
+            "id": "JOINT.17",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_17.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.18",
+            "id": "JOINT.18",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_18.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.19",
+            "id": "JOINT.19",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_19.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.20",
+            "id": "JOINT.20",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_20.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.21",
+            "id": "JOINT.21",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_21.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.22",
+            "id": "JOINT.22",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_22.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.23",
+            "id": "JOINT.23",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_23.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.24",
+            "id": "JOINT.24",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_24.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.25",
+            "id": "JOINT.25",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_25.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.26",
+            "id": "JOINT.26",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_26.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.27",
+            "id": "JOINT.27",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_27.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.28",
+            "id": "JOINT.28",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_28.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.29",
+            "id": "JOINT.29",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_29.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.30",
+            "id": "JOINT.30",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_30.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "JOINT.31",
+            "id": "JOINT.31",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": 5000
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "joint_31.txt"
+                    }
+                }
+            ]
+        }
+    ],
+    "bookmarks": [
+        {
+            "name": "bookmark_0",
+            "time": 0
+        },
+        {
+            "name": "bookmark_1",
+            "time": 30000
+        }
+    ]
+}
