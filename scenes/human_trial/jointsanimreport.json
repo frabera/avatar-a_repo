@@ -37,15 +37,6 @@
                         ]
                     }
                 },
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "3000"
-                    },
-                    "event": {
-                        "type": "animation",
-                        "data": "https://raw.githubusercontent.com/frabera/avatar-a_repo/master/animations/example_1/bottle_fall.txt"
-                    }
                 }
             ]
         }
